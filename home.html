@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='bootstrap/css/bootstrap.css' rel='stylesheet'>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+ <script src='function.js'></script>
+  <script src='bootstrap/js/bootstrap.js'></script>
+  <title>home page</title>
+  <link href="css/style.css" rel="stylesheet">
+    <!--<script>
+    $(function(){
+      $("#headerInclude").load("header.html");
+    });
+  </script> -->
+</head>
+<body>
+<div class="main_page">
+
+<div id="headerInclude"></div>
+
+
+<section><div style="height:80px; width:100%; margin-bottom: 15px;"></div></section>
+
+
+<div> hehehehe
+</div>
+<div> hehehehe
+</div>
+
+</div>
+
+
+<!--
+<footer>
+<table>
+   <tr>
+        <th><a href="file:///C:/Users/minkumari/Desktop/bootstrap/bootstrap3.html">Home</a></th>
+        <th><a href="file:///C:/Users/minkumari/Desktop/bootstrap/bootstrap3.html">About US</a></th>
+        <th><a href="file:///C:/Users/minkumari/Desktop/bootstrap/bootstrap3.html">Events</a></th>
+        <th><a href="file:///C:/Users/minkumari/Desktop/bootstrap/bootstrap3.html">News</a></th>
+        <th><a href="file:///C:/Users/minkumari/Desktop/bootstrap/bootstrap3.html">Gallery</a></th>
+   </tr>
+</table>
+</footer>
+-->
+
+<script>
+$(document).ready(function(){
+
+$.get('header.html').success(function(data)
+ {
+ //alert(data);
+      $('#headerInclude').load('header.html');
+   // alert("finished");
+ });
+
+ });
+ 
+
+
+</script>
+
+</body>
+</html>
