@@ -71,12 +71,10 @@ body{
 		padding:20px;
 	}
 	.inner{
-	  margin:0 15px;
-	}
-	.inner .info{
+
 		/*background:rgba(255,255,255,0.80);
 		border-radius: 14px;*/
-		padding: 30px 5px;
+		padding: 10px 5px;
 		/*box-shadow: 5px 14px 25px rgba(0,0,0,.08);*/
 		left:0;
 		text-align: justify;
@@ -142,3 +140,30 @@ body{
 	.font_heading_color{
 		color:#008080;
 	}
+	
+	.modal-prop{
+	border: none;
+    border-radius: 0;
+	}
+	.button-modal{
+	padding: 5px !important;
+    background: rgb(255, 153, 51) !important;
+    border-radius: 50px;
+    height: 25px;
+    font-size: 28px;
+    line-height: 0;
+    color: #fff;
+    text-shadow: 0 0 0;
+    opacity: 1;
+	}
+	.carousel-control.bck-image{
+		background-image:none ;
+	}
+
+	.glyphicon.glyphicon-chevron-left.arrow-pos{
+		margin-left: -100px;
+	}
+	.glyphicon.glyphicon-chevron-right.arrow-pos{
+		margin-right: -100px;
+	}
+	
