@@ -1,8 +1,9 @@
 body{
-	font-family:calibri;
+	font-family:BankGothic Lt BT Light;
+	/*font-size:15px;*/
 }
 	.main_page{
-		font-family:calibri;
+		font-family:BankGothic Lt BT Light;
 		/*background: linear-gradient(to bottom, rgba(186,151,115,0.6), rgba(26,26,26,0.7)) */;
 		background-color:rgba(191, 191, 191,0.2);
 		/*
@@ -74,7 +75,7 @@ body{
 
 		/*background:rgba(255,255,255,0.80);
 		border-radius: 14px;*/
-		padding: 10px 5px;
+		padding: 15px;
 		/*box-shadow: 5px 14px 25px rgba(0,0,0,.08);*/
 		left:0;
 		text-align: justify;
@@ -155,15 +156,22 @@ body{
     color: #fff;
     text-shadow: 0 0 0;
     opacity: 1;
+
+	}
+	.button-modal:focus{
+			outline: -webkit-focus-ring-color auto 0;
 	}
 	.carousel-control.bck-image{
 		background-image:none ;
 	}
 
 	.glyphicon.glyphicon-chevron-left.arrow-pos{
-		margin-left: -100px;
+		margin-left: -45px;
 	}
 	.glyphicon.glyphicon-chevron-right.arrow-pos{
-		margin-right: -100px;
+		margin-right: -45px;
 	}
-	
+	.style-one{
+		border-bottom: 1px solid #fff;
+		    padding-bottom: 10px;
+	}
