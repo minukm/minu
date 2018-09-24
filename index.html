@@ -10,6 +10,16 @@
   <script src='bootstrap/js/bootstrap.js'></script>
   <title>home page</title>
   <link href="css/style.css" rel="stylesheet">
+  <style>
+
+body {
+    background: url('images/ii.jpg') no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+  </style>
     <!--<script>
     $(function(){
       $("#headerInclude").load("header.html");
@@ -18,18 +28,11 @@
 </head>
 <body>
 <div class="main_page">
-
 <div id="headerInclude"></div>
 
-
-<section><div style="height:80px; width:100%; margin-bottom: 15px;"></div></section>
-
-
-<div> hehehehe
+<div class="welcome">
+     <p class="home_Display">P.O.R.T.F.O.L.I.O</p>
 </div>
-<div> hehehehe
-</div>
-
 </div>
 
 
@@ -53,7 +56,7 @@ $(document).ready(function(){
 $.get('header.html').success(function(data)
  {
  //alert(data);
-      $('#headerInclude').load('header.html');
+      $('#headerInclude').load('header_home.html');
    // alert("finished");
  });
 
