@@ -197,7 +197,7 @@ body{
 		width: 100%;
 		text-align: center;
 		color: #000!important;
-		 text-shadow: 2px 2px #FFF;
+		text-shadow: 2px 2px #FFF;
 	}
 	
 	.home_Display{
@@ -208,6 +208,5 @@ body{
 	.welcome {
 		font-size: 30px;
 		top: 45%;
-		
 	}
 	}
