@@ -30,3 +30,5 @@
     // show the modal
   	$("#modal-gallery").modal("show");
   });
+  
+  
