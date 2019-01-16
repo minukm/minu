@@ -105,4 +105,5 @@
 	text-transform:uppercase;
 	box-shadow:3px 20px 34px -12px rgba(0,0,0,.08);
 	-webkit-box-shadow:3px 20px 34px -12px rgba(0,0,0,.08);
+	letter-spacing: 12px;
 }
