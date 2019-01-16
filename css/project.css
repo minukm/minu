@@ -1,4 +1,12 @@
+.bcgrnd{
+	background-color: #E7EBE8;
+}
+.row_base{
+	margin-bottom:10px;
+	
+}
 .glyphicon { margin-right:5px; }
+
 .item .thumbnail
 {
     margin-bottom: 0px;
@@ -9,7 +17,7 @@
 	    border: 0;
 }
 .grid-group-item .thumbnail {
-    min-height: 320px;
+    min-height: 400px;
 	
 	box-shadow: 4px 0px 140px -19px rgba(0,0,0,.08);
 	-webkit-box-shadow:4px 52px 56px -34px rgba(0,0,0,.08), 0px 0px 16px -5px rgba(0,0,0,.15);
