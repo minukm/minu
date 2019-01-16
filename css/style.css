@@ -216,10 +216,14 @@ body{
 /*sketches */
 
 .heading_top{
+	color: #6A726C;
 	text-align: center;
 	letter-spacing: 12px;
 	text-transform: uppercase;
-	border-bottom: 1px solid black;
+}
+.line_base{
+	margin: 0 200px;
+    border-bottom: 2px solid #B2BEB5;
 }
 .row_sketch {
     display: -ms-flexbox; /* IE10 */
