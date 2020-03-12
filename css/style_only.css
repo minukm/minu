@@ -1,167 +1,151 @@
  
 body, html {
-  height: 100%;
-  margin: 0;
-/*  color: #777;*/
+  height:100%;
+    margin:0;
+    padding:0;
+      max-width: 100%;
+    overflow-x: hidden;
 }
+
 .nospace{
     margin:0;
     padding:0;
 }
 
-
-.bgimg{
-    background-color: rgb(220, 220, 220);
-     min-height: 100%;
-     padding:2% 5%;
+.back{
+	    background-color: #0F4C75;
+	    height:100%;
 }
 
-/*button color and animation*/
+.container {
+    height: 100%;
+}
 
- .navbutton{
-                margin: 10%;
-            }
-
-
-.back{
-    background-image: url(Design1.jpg);
-       height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.bg_12 {
+  /* The image used */
+  background-image: url(first_img.jpg);
+	height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg_13 {
+  /* The image used */
+  background-image: url(mywork.jpg);
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media only screen and (max-device-width: 767px) {
-    .bgimg {
-        background-color: #fff;
-    }
+ 
     .nomobile{
         display:none;
     }
-     .navbutton{
-        color:#fff;
-        border-radius: 35px;
-    }
-    .separator{
-    background-color: rgb(220, 220, 220);
-    min-height: 20px;
-    text-align: center;
-    }
+
     
-    a.animated-button:link, a.animated-button:visited {
-	position: relative;
-	display: block;
-/*	margin: 30px auto 0;*/
-	padding: 14px 15px;
-	color: #202020;
-	font-size:14px;
-	font-weight: bold;
-	text-align: center;
-	text-decoration: none;
-	text-transform: uppercase;
-	overflow: hidden;
-	letter-spacing: .08em;
-	border-radius: 0;
-	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
-}
-    a.animated-button.victoria-two {
-	border: 2px solid #202020;
-}
 }
 @media only screen and (min-device-width: 767px) {
     
     .nodesktop{
         display:none;
     }
-    .nav1{
-        float:right !important;
-    }
-     .navbutton{
-        margin: 10%;
-        margin-top:20%;
-        width:200px;
-    }
-    .separator{
-        display: none;
-    }
     
-     a.animated-button:link, a.animated-button:visited {
-	position: relative;
-	display: block;
-/*	margin: 30px auto 0;*/
-	padding: 14px 15px;
-	color: #fff;
-	font-size:14px;
-	font-weight: bold;
-	text-align: center;
-	text-decoration: none;
-	text-transform: uppercase;
-	overflow: hidden;
-	letter-spacing: .08em;
-	border-radius: 0;
-	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
-	-webkit-transition: all 1s ease;
-	-moz-transition: all 1s ease;
-	-o-transition: all 1s ease;
-	transition: all 1s ease;
-}
-a.animated-button:link:after, a.animated-button:visited:after {
-	content: "";
-	position: absolute;
-	height: 0%;
-	left: 50%;
-	top: 50%;
-	width: 150%;
-/*	z-index: 0;*/
-	-webkit-transition: all 0.75s ease 0s;
-	-moz-transition: all 0.75s ease 0s;
-	-o-transition: all 0.75s ease 0s;
-	transition: all 0.75s ease 0s;
-}
-a.animated-button:link:hover, a.animated-button:visited:hover {
-	color: #fff;
-	text-shadow: none;
-    z-index: 1;
-}
-a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
-	height: 450%;
-    z-index: -1;
-}
-a.animated-button:link, a.animated-button:visited {
-	position: relative;
-	display: block;
-/*	margin: 30px auto 0;*/
-	padding: 14px 15px;
-	color: #202020;
-	font-size:14px;
-	border-radius: 0;
-	font-weight: bold;
-	text-align: center;
-	text-decoration: none;
-	text-transform: uppercase;
-	overflow: hidden;
-	letter-spacing: .08em;
-	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
-	-webkit-transition: all 1s ease;
-	-moz-transition: all 1s ease;
-	-o-transition: all 1s ease;
-	transition: all 1s ease;
 }
 
-/* Victoria Buttons */
+/* -------------------------------------------------------------------------------------------------------  */
 
-a.animated-button.victoria-two {
-	border: 2px solid #202020;
-}
-a.animated-button.victoria-two:after {
-	background: #202020;
-	-moz-transform: translateX(-50%) translateY(-50%) rotate(25deg);
-	-ms-transform: translateX(-50%) translateY(-50%) rotate(25deg);
-	-webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg);
-	transform: translateX(-50%) translateY(-50%) rotate(25deg);
+.table {
+    display:table;
+    text-align:center;
+    height:100%;
+    table-layout:fixed;
 }
 
+.home {
+    background-image: linear-gradient(to right, rgba(16,61,93,65%), rgba(21,102,157,65%) );
+     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    display:inline-block;
+    border-radius: 20px;
+    width: 80%;
+    margin-top: 4%;
+    padding:50px 0;
+   
+}
+
+.home_text{
+  padding: 5%; 
+  text-align: left;
+}
+
+/* -------------------------------------------------------------------------------------------------------  */
+
+.about_me
+{
+   padding: 5%; 
+  height:200px;
+}
+.table {
+    display:table;
+    text-align:center;
+    height:100%;
+    table-layout:fixed;
+}
+.about {
+    background-image: linear-gradient(to right, rgba(50, 130, 184,65%), rgba(50, 130, 184,65%) );
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
+    display:inline-block;
+    border-radius: 10px;
+    width: 90%;
+    margin-top: 5%;
+    padding:20px 0;
+}
+.mywork_first{
+  color:#ffffff; 
+  font-size:50px; 
+  font-weight: bold; 
+  line-height: 0.9;
+  padding: 10%; 
+  text-align: left; 
+  font-family:PlayfairDisplay-bold;
+}
+.about_in{
+    background-image: linear-gradient(to left, rgba(16,61,93), rgba(21,102,157) );
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
+    display:inline-block;
+    border-radius: 10px;
+    margin-left:1.5%;
+}
+.about_in img{
+    width: 85%;
+    height: 85%;
+    position: relative;
+    top: -40px;
     
+}
+.about_in2{
+    background: rgba(15, 76, 117,65%);
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+    display:inline-block;
+    border-radius: 10px;
+    margin-right:1.5%;
+    text-align: left;
+
+}
+.about_text{
+    padding: 10%; 
+    text-align: left;
+}
+.portfolioBox{
+    width:70%;
+    background: rgb(255, 255, 255);
+    display:inline-block;
+    border-radius: 5px;
+    padding:8px 20px;
+    margin: 4% 15%;
 }
