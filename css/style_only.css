@@ -13,8 +13,12 @@ body, html {
 }
 
 .back{
-	    background-color: #0F4C75;
-	    height:100%;
+    background-color: #0F4C75;
+    height:100%;
+}
+.back1{
+    background-color: #0F4C75;
+    height:70%;
 }
 
 .container {
@@ -25,21 +29,26 @@ body, html {
   /* The image used */
   background-image: url(first_img.jpg);
 	height: 100%;
-  /* Create the parallax scrolling effect */
+  /* Create the parallax scrolling effect 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
+}
+.bg_10{
+   background-image: url(bg2.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
 }
 .bg_13 {
   /* The image used */
   background-image: url(mywork.jpg);
   height: 100%;
-  /* Create the parallax scrolling effect */
+  /* Create the parallax scrolling effect 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 @media only screen and (max-device-width: 767px) {
@@ -60,50 +69,65 @@ body, html {
 
 /* -------------------------------------------------------------------------------------------------------  */
 
-.table {
-    display:table;
-    text-align:center;
-    height:100%;
-    table-layout:fixed;
-}
-
 .home {
-    background-image: linear-gradient(to right, rgba(16,61,93,65%), rgba(21,102,157,65%) );
-     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    background-image: linear-gradient(to right, rgba(16,61,93,85%), rgba(21,102,157,85%) );
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
     display:inline-block;
     border-radius: 20px;
     width: 80%;
-    margin-top: 4%;
+    margin-top: 10%;
     padding:50px 0;
    
 }
-
+.home_image{
+  margin-right:5%;
+  float:right;
+}
 .home_text{
   padding: 5%; 
   text-align: left;
 }
 
+/* ------------------------------------------------------------------------------------------------------- */
+.aboutme{
+    padding:5%;
+}
+.aboutme_Head{
+  color:#0F4C75; 
+  font-size:45px; 
+  font-weight: bold; 
+  line-height: 0.9;
+  padding: 5% 10%; 
+  text-align: left; 
+  font-family:PlayfairDisplay-bold;
+}
+.aboutme_Text{
+  padding: 1% 10%;
+}
+.aboutme_Text p{
+    text-align:left;
+
+}
+.skillBtn{
+  text-transform: uppercase;
+  font-family: Poppins-Light;
+  font-weight: bold;
+  border-radius: 20px;
+  padding:8px 35px;
+}
+
+
 /* -------------------------------------------------------------------------------------------------------  */
 
-.about_me
-{
-   padding: 5%; 
-  height:200px;
-}
-.table {
-    display:table;
-    text-align:center;
-    height:100%;
-    table-layout:fixed;
-}
-.about {
+
+.work {
     background-image: linear-gradient(to right, rgba(50, 130, 184,65%), rgba(50, 130, 184,65%) );
     box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
     display:inline-block;
     border-radius: 10px;
     width: 90%;
     margin-top: 5%;
-    padding:20px 0;
+    padding:20px 20px;
 }
 .mywork_first{
   color:#ffffff; 
@@ -119,15 +143,44 @@ body, html {
     box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
     display:inline-block;
     border-radius: 10px;
-    margin-left:1.5%;
 }
 .about_in img{
-    width: 85%;
-    height: 85%;
+    width: 50%;
+    height: 50%;
     position: relative;
-    top: -40px;
-    
+    top: -25px;
+    left: 100px;
 }
+.about_in2{
+    background: rgba(15, 76, 117, 0.2);
+    margin-top:20px;
+    display:inline-block;
+    border-radius: 10px;
+}
+.column-8{
+    width:32%;
+}
+.about_in2 img{
+    width:100%;
+    margin: 10%;
+    float: left;
+}
+.tiles_text1{
+    color:#F3BA4A; 
+    font-size:18px;
+    text-align:left; 
+    font-weight: bold;
+    font-family:Poppins-Light; 
+    margin-bottom:0;
+}
+.tiles_text2 {
+    color:#ffffff; 
+    font-size:12px; 
+    text-align:left; 
+    line-height: 1.5; 
+    font-family:Poppins;
+}
+/*
 .about_in2{
     background: rgba(15, 76, 117,65%);
     box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
@@ -148,4 +201,4 @@ body, html {
     border-radius: 5px;
     padding:8px 20px;
     margin: 4% 15%;
-}
+} */

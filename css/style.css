@@ -33,6 +33,13 @@ header
 	text-align:center;
 }
 
+.table {
+    display:table;
+    text-align:center;
+    height:100%;
+    table-layout:fixed;
+}
+
 
 @media only screen and (max-device-width:768px){
 .welcome {
