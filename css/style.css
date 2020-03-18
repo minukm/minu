@@ -12,6 +12,14 @@
      src: url('font/Playfair_Display/PlayfairDisplay-Bold.ttf');
 }
  @font-face { 
+     font-family: Poppins-Bold; 
+     src: url('font/poppins/Poppins-Bold.otf');
+}
+ @font-face { 
+     font-family: Poppins-Semibold; 
+     src: url('font/poppins/Poppins-SemiBold.otf');
+}
+ @font-face { 
      font-family: Poppins; 
      src: url('font/poppins/Poppins-Thin.otf');
 }
@@ -19,6 +27,7 @@
      font-family: Poppins-Light; 
      src: url('font/poppins/Poppins-Light.otf');
 }
+
 body{
 	font-family:PlayfairDisplay;
 	/*font-size:15px;*/
@@ -38,6 +47,7 @@ header
     text-align:center;
     height:100%;
     table-layout:fixed;
+    margin-bottom:0px;
 }
 
 
@@ -69,3 +79,9 @@ other instead of next to each other */
         max-width: 100%;
     }
 }
+
+
+
+
+/* ---------------------------------- */
+

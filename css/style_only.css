@@ -51,6 +51,12 @@ body, html {
   background-size: cover;*/
 }
 
+.bg_14{
+   background-image: url(bg4.jpg);
+    /*height: 100%; */
+    background-repeat: no-repeat;
+}
+
 @media only screen and (max-device-width: 767px) {
  
     .nomobile{
@@ -77,29 +83,28 @@ body, html {
     width: 80%;
     margin-top: 10%;
     padding:50px 0;
-   
 }
 .home_image{
-  margin-right:5%;
-  float:right;
+    margin-right:5%;
+    float:right;
 }
 .home_text{
-  padding: 5%; 
-  text-align: left;
+    padding: 5%; 
+    text-align: left;
 }
 
 /* ------------------------------------------------------------------------------------------------------- */
 .aboutme{
     padding:5%;
 }
-.aboutme_Head{
-  color:#0F4C75; 
-  font-size:45px; 
-  font-weight: bold; 
-  line-height: 0.9;
-  padding: 5% 10%; 
-  text-align: left; 
-  font-family:PlayfairDisplay-bold;
+.title_head{
+    color:#0F4C75; 
+    font-size:45px; 
+    font-weight: bold; 
+    line-height: 0.9;
+    padding: 3% 7%; 
+    text-align: left; 
+    font-family:PlayfairDisplay-bold;
 }
 .aboutme_Text{
   padding: 1% 10%;
@@ -109,11 +114,13 @@ body, html {
 
 }
 .skillBtn{
-  text-transform: uppercase;
-  font-family: Poppins-Light;
-  font-weight: bold;
-  border-radius: 20px;
-  padding:8px 35px;
+    text-transform: uppercase;
+    font-family: Poppins-Light;
+    font-weight: bold;
+    border-radius: 20px;
+    padding:8px 35px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    border-color:#f0ad4e;
 }
 
 
@@ -130,13 +137,13 @@ body, html {
     padding:20px 20px;
 }
 .mywork_first{
-  color:#ffffff; 
-  font-size:50px; 
-  font-weight: bold; 
-  line-height: 0.9;
-  padding: 10%; 
-  text-align: left; 
-  font-family:PlayfairDisplay-bold;
+    color:#ffffff; 
+    font-size:50px; 
+    font-weight: bold; 
+    line-height: 0.9;
+    padding: 10%; 
+    text-align: left; 
+    font-family:PlayfairDisplay-bold;
 }
 .about_in{
     background-image: linear-gradient(to left, rgba(16,61,93), rgba(21,102,157) );
@@ -179,6 +186,66 @@ body, html {
     text-align:left; 
     line-height: 1.5; 
     font-family:Poppins;
+}
+.tiles_text3 {
+    color:#ffffff; 
+    font-size:15px; 
+    text-align:left; 
+    line-height: 1.5; 
+    font-family:Poppins-Light;
+}
+/* -------------------------------------------------------------------------------------------------------  */
+
+.resume{
+    background-image: linear-gradient(to right, rgba(61, 146, 204,65%), rgba(61, 146, 204,65%) );
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
+    display:inline-block;
+    border-radius: 10px;
+    width: 90%;
+    margin-top: 3%;
+    padding:20px 20px;
+    margin-bottom: 3%;
+}
+.title_head_resume{
+    color:#ffffff; 
+    font-size:45px; 
+    font-weight: bold; 
+    line-height: 0.9;
+    padding: 5% 7%; 
+    text-align: left; 
+    font-family:PlayfairDisplay-bold;
+}
+.resume_text{
+    color:#ffffff; 
+    font-size:20px;
+    text-align:left; 
+    font-family:Poppins-Bold; 
+    margin-bottom:0;
+    letter-spacing: 0.5px;
+}
+.resume_text2{
+    color:#ffffff; 
+    font-size:15px; 
+    text-transform: uppercase;
+    font-family:PlayfairDisplay-bold; 
+    margin-bottom:0;
+}
+.meresumeimg img{
+  padding:5% 0;
+}
+.mail_font{
+  font-size:25px;
+  margin-top:-1%;
+  font-family: Poppins-Semibold;
+}
+.mail_font img{
+  margin: 0 5px;
+}
+.pad-l-4{
+    padding-left: 4%;
+}
+.pad-l-0{
+  padding-left: 0;
 }
 /*
 .about_in2{
