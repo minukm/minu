@@ -189,7 +189,7 @@ body, html {
 }
 .tiles_text3 {
     color:#ffffff; 
-    font-size:15px; 
+    font-size:12px; 
     text-align:left; 
     line-height: 1.5; 
     font-family:Poppins-Light;
@@ -229,6 +229,7 @@ body, html {
     text-transform: uppercase;
     font-family:PlayfairDisplay-bold; 
     margin-bottom:0;
+    text-align: left;
 }
 .meresumeimg img{
   padding:5% 0;
